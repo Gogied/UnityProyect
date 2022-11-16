@@ -1,0 +1,648 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 16262 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+E:/Intento
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61781
+Successfully changed project path to: E:/Intento
+E:/Intento
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 173.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Intento/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX130 (ID=0x174d)
+    Vendor:   NVIDIA
+    VRAM:     2010 MB
+    Driver:   30.0.15.1169
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.017444 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 159.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1335ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (478ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (160ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.159538 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Intento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\Intento\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.497 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2499ms)
+		BeginReloadAssembly (263ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1910ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (609ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (860ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (224ms)
+				ProcessInitializeOnLoadAttributes (523ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3507 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (492.9 KB). Loaded Objects now: 3983.
+Memory consumption went from 149.5 MB to 149.1 MB.
+Total: 7.777400 ms (FindLiveObjects: 0.474300 ms CreateObjectMapping: 0.456700 ms MarkObjects: 6.223300 ms  DeleteObjects: 0.621500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 923.103861 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush02_Textures/translucency_gloss.png
+  artifactKey: Guid(55c6ac3e6f8270d469c6046696f009db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Nature/bush02_Textures/translucency_gloss.png using Guid(55c6ac3e6f8270d469c6046696f009db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8cef37cbaa5df91adddef3e1d71ebf9d') in 0.996973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush02.prefab
+  artifactKey: Guid(ec78ebca7517fb745a45a931cb06d2bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Nature/bush02.prefab using Guid(ec78ebca7517fb745a45a931cb06d2bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '647d60f7eaf655429c407bb8d2cbca19') in 0.495836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000975 seconds.
+  path: Assets/NatureStarterKit2/Textures/bush01.tga
+  artifactKey: Guid(cd0dd843ef8672e4896d03c7a66fa5da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Textures/bush01.tga using Guid(cd0dd843ef8672e4896d03c7a66fa5da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ffb2483dd99994837702dd74ab6a6314') in 0.196549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush04_Textures/shadow.png
+  artifactKey: Guid(ee879bd20f6819143a6527d0c880ac6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Nature/bush04_Textures/shadow.png using Guid(ee879bd20f6819143a6527d0c880ac6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92c30132df64d62256eff25b6bc8aa49') in 0.113176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree04_Textures/translucency_gloss.png
+  artifactKey: Guid(867a9bb6289eac041a67ad5218a3307e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Nature/tree04_Textures/translucency_gloss.png using Guid(867a9bb6289eac041a67ad5218a3307e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a83106fb71d34864ea346501679a2b54') in 0.165352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/NatureStarterKit2/Editor/ImageEffects/CreaseShadingEditor.cs
+  artifactKey: Guid(6788af605d2f1244789565913bb4e7f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Editor/ImageEffects/CreaseShadingEditor.cs using Guid(6788af605d2f1244789565913bb4e7f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '992de26283c0da48323b07c15e6b093b') in 0.089607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush06_Textures/shadow.png
+  artifactKey: Guid(d98f7f433a35e2644b3737f5b6abbe8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Nature/bush06_Textures/shadow.png using Guid(d98f7f433a35e2644b3737f5b6abbe8a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ffd3441cc82ef748d921fb97204ba40') in 0.118813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/NatureStarterKit2/Nature/tree04_Textures/normal_specular.png
+  artifactKey: Guid(4561489a3ef42ad4eae5f6167fc00c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Nature/tree04_Textures/normal_specular.png using Guid(4561489a3ef42ad4eae5f6167fc00c76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0de10c52a8906e76185f8591569cbce2') in 0.113592 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs
+  artifactKey: Guid(4975a6e437fc3b149a8cd508ce5bdd69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/BloomOptimized.cs using Guid(4975a6e437fc3b149a8cd508ce5bdd69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c14b0fb6c46889cf8f3b58f031c1d21e') in 0.110186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs
+  artifactKey: Guid(3309686a9fbbe6e42a182d5e0257704c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ContrastEnhance.cs using Guid(3309686a9fbbe6e42a182d5e0257704c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'beb8bd6923a98f80c1858cd2887feb66') in 0.067922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NatureStarterKit2/Scene/SecondaryTerrain.asset
+  artifactKey: Guid(7f570b916f436aa4c9d4676e57349fd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Scene/SecondaryTerrain.asset using Guid(7f570b916f436aa4c9d4676e57349fd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f4c6f78291206c30287137e486145177') in 0.862096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs
+  artifactKey: Guid(4739c22ef73ad62488fe344c8fe9addd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/Fisheye.cs using Guid(4739c22ef73ad62488fe344c8fe9addd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5254adfaf72287401c5e42d02645f249') in 0.070177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8f726f545efc8506f716a5b754552c4') in 0.111270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs
+  artifactKey: Guid(a4a9489f73e4f0344ab3fc97bdf5170b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs using Guid(a4a9489f73e4f0344ab3fc97bdf5170b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bb038bbeec67a4a7276def3c7721710c') in 0.258158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs
+  artifactKey: Guid(a22b3a7095a744a428c134b5e26ad68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/TiltShift.cs using Guid(a22b3a7095a744a428c134b5e26ad68e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '223b2e04d024058349600b8cc7c96ab0') in 0.097098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/NatureStarterKit2/Textures/ground01.tga
+  artifactKey: Guid(ffbc4ff073065254585f69e966389160) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Textures/ground01.tga using Guid(ffbc4ff073065254585f69e966389160) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20324115428a96d732535cc6e041b44c') in 0.262933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush03.prefab
+  artifactKey: Guid(9c74caa742791864f9c678287121e6c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Nature/bush03.prefab using Guid(9c74caa742791864f9c678287121e6c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8b33ded6f720447a12300ce5a583615') in 0.319664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader
+  artifactKey: Guid(b59984d82af624bd3b0c777f038276f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/CreaseApply.shader using Guid(b59984d82af624bd3b0c777f038276f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58f295fbece0efa94b6bed5a004df2c5') in 0.083209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader
+  artifactKey: Guid(e515e0f94cefc4c0db54b45cba621544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader using Guid(e515e0f94cefc4c0db54b45cba621544) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4549bc307cac2797c1925bdb9a0736d5') in 0.092313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Personaje1/textures/FemaleFitA_Body_diffuse.png
+  artifactKey: Guid(3080fa9bbed1c2f459d5fd3ff7f4f7dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Personaje1/textures/FemaleFitA_Body_diffuse.png using Guid(3080fa9bbed1c2f459d5fd3ff7f4f7dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'efcb2855ab447044d4ac6685a547a430') in 0.139037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Personaje1/Erika Archer.fbx
+  artifactKey: Guid(4275fd4a3aa859c47867cf6635aad67a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Personaje1/Erika Archer.fbx using Guid(4275fd4a3aa859c47867cf6635aad67a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd6ddb7abc4f21f1403f23dd28ed0607a') in 0.299026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs
+  artifactKey: Guid(8cde8c0fd649d9b46bb403ba5e157391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs using Guid(8cde8c0fd649d9b46bb403ba5e157391) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '616233b7fd7315d7bdccc18f40794f1c') in 0.109887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader
+  artifactKey: Guid(2b4f29398d9484ccfa9fd220449f5eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader using Guid(2b4f29398d9484ccfa9fd220449f5eee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bf9976e968934f9604e25cf460d7ab6') in 0.083701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png
+  artifactKey: Guid(d440902fad11e807d00044888d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/color correction ramp.png using Guid(d440902fad11e807d00044888d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5d86c78f622381d4323a5753c3d65d7') in 0.138943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader
+  artifactKey: Guid(003377fc2620a44939dadde6fe3f8190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Tonemapper.shader using Guid(003377fc2620a44939dadde6fe3f8190) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd54f1ed46bc17a0a1a2e31ae08f54cb') in 0.119729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png
+  artifactKey: Guid(31f5a8611c4ed1245b18456206e798dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/MotionBlurJitter.png using Guid(31f5a8611c4ed1245b18456206e798dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9333b133ae08752bdff25c84e3eff941') in 0.137699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs
+  artifactKey: Guid(76b5ec6153a1d55438228df10fe66844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/GlobalFog.cs using Guid(76b5ec6153a1d55438228df10fe66844) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d1072aca3771e2dc69cd41f1be9419c') in 0.096481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Flares/Sun.flare
+  artifactKey: Guid(09ebe82dbd1113c3d000dc0b8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightFlares/Flares/Sun.flare using Guid(09ebe82dbd1113c3d000dc0b8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3c54a5e37c81fad38eb97c2c2cca63d9') in 0.124291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd
+  artifactKey: Guid(fc00ec05a89da4ff695a4273715cd5ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/SphereShape.psd using Guid(fc00ec05a89da4ff695a4273715cd5ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '571f28c2de73f04d6f82c3bb8119c583') in 0.540231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat
+  artifactKey: Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Materials/ShadowProjector.mat using Guid(e30ff3588e719f34bbf0c66f22d97487) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '60152b69af701b53b30d569aef5ed740') in 0.101541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/NatureStarterKit2/Materials/bush01.mat
+  artifactKey: Guid(216a7e882dab7d745a4fc6ccb3774f75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Materials/bush01.mat using Guid(216a7e882dab7d745a4fc6ccb3774f75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0315bc9f4f5429937b7afb76be170669') in 0.071181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/NatureStarterKit2/Materials/skybox.mat
+  artifactKey: Guid(39cace2863926444a9a78daa8ae26413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Materials/skybox.mat using Guid(39cace2863926444a9a78daa8ae26413) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '773bbc331e32302c56c6be9209a0ab32') in 0.078575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Prefabs/GridProjector.prefab
+  artifactKey: Guid(46b12845355544642bf8f9d0cb373af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Prefabs/GridProjector.prefab using Guid(46b12845355544642bf8f9d0cb373af7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48aab117c2618bbc1bd2752c47178c9f') in 0.087091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat
+  artifactKey: Guid(a3384ef3e2313034f9016ad8a1f3999f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecular.mat using Guid(a3384ef3e2313034f9016ad8a1f3999f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f49c8f06d30de7a3ab0a25073b646148') in 0.117955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader
+  artifactKey: Guid(01a668cc78047034a8a0c5ca2d24c6f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Shaders/ProjectorMultiply.shader using Guid(01a668cc78047034a8a0c5ca2d24c6f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '993a40cd1fe1d45d8385408561a6488a') in 0.096433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader
+  artifactKey: Guid(43ca18288c424f645aaa1e9e07f04c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/SSAOShader.shader using Guid(43ca18288c424f645aaa1e9e07f04c50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86dd594a21734d00481bbeb9fab5d143') in 0.104077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Personaje1/Animaciones/Run.anim
+  artifactKey: Guid(32ca63bcbde3dc948a06845f599163df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Personaje1/Animaciones/Run.anim using Guid(32ca63bcbde3dc948a06845f599163df) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f470d598459a2e0eeeb667bb16d77226') in 0.194719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat
+  artifactKey: Guid(5d69df9d9d11e49d110086ba44295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Materials/ToonLitOutline.mat using Guid(5d69df9d9d11e49d110086ba44295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1956dd8c9bfd71c576d62add8d2df8b9') in 0.104710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader
+  artifactKey: Guid(017ca72b9e8a749058d13ebd527e98fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader using Guid(017ca72b9e8a749058d13ebd527e98fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d98ce73496d5d083f80012cc37f2d7f') in 0.100270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Materiales/Material 2.mat
+  artifactKey: Guid(ab903832d3bade142a662e41c40ec411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materiales/Material 2.mat using Guid(ab903832d3bade142a662e41c40ec411) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f4364ea830eff100ede39971fc7f6a0') in 0.079392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat
+  artifactKey: Guid(848918a99d11f25f110026ca44295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/GlassRefraction/Materials/GlassRefractive.mat using Guid(848918a99d11f25f110026ca44295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7770a02e988962276192f0e78d411a27') in 0.149202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader
+  artifactKey: Guid(e2baf3cae8edc4daf94c9adc2154be00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader using Guid(e2baf3cae8edc4daf94c9adc2154be00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ddfc52a675fc1210848db176e147f770') in 0.086435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader
+  artifactKey: Guid(459fe69d2f6d74ddb92f04dbf45a866b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader using Guid(459fe69d2f6d74ddb92f04dbf45a866b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ca2ae0761e9406dd87cecea0de0fd6a') in 0.075481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader
+  artifactKey: Guid(c182fa94a5a0a4c02870641efcd38cd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader using Guid(c182fa94a5a0a4c02870641efcd38cd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3df525f526cb99afb531bd0588a3b86c') in 0.092499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader
+  artifactKey: Guid(ce0cb2621f6d84e21a87414e471a3cce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader using Guid(ce0cb2621f6d84e21a87414e471a3cce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a9c83a846b92b37670013a3fabe0bf73') in 0.090055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush01_Textures/translucency_gloss.png
+  artifactKey: Guid(cf9b478cf6fc37d4db53b2670e435165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Nature/bush01_Textures/translucency_gloss.png using Guid(cf9b478cf6fc37d4db53b2670e435165) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c2999ab06b5ac421e6e145a9df8faa8') in 0.127906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader
+  artifactKey: Guid(987fb0677d01f43ce8a9dbf12271e668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader using Guid(987fb0677d01f43ce8a9dbf12271e668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37041ce15db6580146a2f06e7f516b89') in 0.085309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader
+  artifactKey: Guid(57b33a14b6d5347c5a85c36f6cb3b280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader using Guid(57b33a14b6d5347c5a85c36f6cb3b280) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf49253013307601b057e0124abd40ce') in 0.091320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NatureStarterKit2/Editor/ImageEffects/SunShaftsEditor.cs
+  artifactKey: Guid(54f6f6313f2aecc4d81035ec0031e313) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Editor/ImageEffects/SunShaftsEditor.cs using Guid(54f6f6313f2aecc4d81035ec0031e313) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26f836f8421f10e11c226fef6dfa7abf') in 0.129885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat
+  artifactKey: Guid(26d8bdbc8646bde48b05fbaacaaa6577) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Materials/TesselatedBumpSpecularDisplacement.mat using Guid(26d8bdbc8646bde48b05fbaacaaa6577) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d256bfb84ce309e2e98b652956a18c3') in 0.119438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader
+  artifactKey: Guid(53b3960ee3d3d4a5caa8d5473d120187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader using Guid(53b3960ee3d3d4a5caa8d5473d120187) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e28462aa5125d0c2fe808950344800b') in 0.076847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Personaje1/Animaciones/Sword And Shield Idle.anim
+  artifactKey: Guid(4fc1bcb9a3523324da8c64a5af6cb3a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Personaje1/Animaciones/Sword And Shield Idle.anim using Guid(4fc1bcb9a3523324da8c64a5af6cb3a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb51eaa486c267c0ff9be19ed9cba1cb') in 2.914087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Personaje1/Erika Archer@Standing Run Left.fbx
+  artifactKey: Guid(3f1f13a6baf1f28429f3db72f1c2d712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Personaje1/Erika Archer@Standing Run Left.fbx using Guid(3f1f13a6baf1f28429f3db72f1c2d712) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d84bc61181d4d4073d4588e0398303f') in 0.283575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs
+  artifactKey: Guid(f6469eb0ad1119d6d00011d98d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/ImageEffectBase.cs using Guid(f6469eb0ad1119d6d00011d98d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eec14c4e76bc89c5edb44dd77d59dd3c') in 0.102507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader
+  artifactKey: Guid(daf9781cad112c75d0008dfa8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/GrayscaleEffect.shader using Guid(daf9781cad112c75d0008dfa8d76c639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1510071c3185ea7c391f0f681cb62dc2') in 0.084386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx
+  artifactKey: Guid(103612e5e1ff43a4e896c567a2cb3ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/TessellationShaders/Models/LowPolySphere.fbx using Guid(103612e5e1ff43a4e896c567a2cb3ae1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '92fd1e980868e2a623db6a98758f16a1') in 0.219907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush06_Textures/diffuse.png
+  artifactKey: Guid(c40a1e1e56a4e2a48880f0c13f4af075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Nature/bush06_Textures/diffuse.png using Guid(c40a1e1e56a4e2a48880f0c13f4af075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8624df5602eac76195c51b2d9e448096') in 0.130360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab
+  artifactKey: Guid(28a5e79925e3ce04a82856c16a572cbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/Projectors/Prefabs/BlobShadowProjector.prefab using Guid(28a5e79925e3ce04a82856c16a572cbe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f22a75bb3921b77eb392bab9f88d3027') in 0.105675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif
+  artifactKey: Guid(2c29c08dd1c0b6749b7cd0fcff7a29fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif using Guid(2c29c08dd1c0b6749b7cd0fcff7a29fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '41bd9515f9d3d3d77c4abdacf44b073e') in 0.169277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader
+  artifactKey: Guid(8c81db0e527d24acc9bcec04e87781bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Shaders/BlendModesOverlay.shader using Guid(8c81db0e527d24acc9bcec04e87781bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a13dbc61378759df3af4be21fac46748') in 0.125223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Personaje1/textures/Erika_Archer_Clothes_diffuse.png
+  artifactKey: Guid(b058d771ac2cf394baaa6162d2211865) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Personaje1/textures/Erika_Archer_Clothes_diffuse.png using Guid(b058d771ac2cf394baaa6162d2211865) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c70d68e039a7bfc4c3e0e8926a343632') in 0.116553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Shaders/ToonBasicOutline.shader
+  artifactKey: Guid(9ce107479d11178d11005b9844295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ToonShading/Shaders/ToonBasicOutline.shader using Guid(9ce107479d11178d11005b9844295342) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f526840f8994286237ef8c45e8420bb7') in 0.121391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png
+  artifactKey: Guid(95ef4804fe0be4c999ddaa383536cde8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Textures/VignetteMask.png using Guid(95ef4804fe0be4c999ddaa383536cde8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '848cddfc2c786f8f4248c78ca40f45a5') in 0.135604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/NatureStarterKit2/Editor/ImageEffects/CameraMotionBlurEditor.cs
+  artifactKey: Guid(80cbbe1c107bf5e43a96347d3dfc2658) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Editor/ImageEffects/CameraMotionBlurEditor.cs using Guid(80cbbe1c107bf5e43a96347d3dfc2658) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c0f0fd7af596467ea69d27bd3ac00c2') in 0.069729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs
+  artifactKey: Guid(bd70d448b18cfbc46af26466f752332c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Standard Assets/Effects/ImageEffects/Scripts/DepthOfField.cs using Guid(bd70d448b18cfbc46af26466f752332c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5833c2449e661a9b2892ae35ab990a8') in 0.055206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush05_Textures/normal_specular.png
+  artifactKey: Guid(ca8eb19e8e565a64fb8f2f4c2d9f9297) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Nature/bush05_Textures/normal_specular.png using Guid(ca8eb19e8e565a64fb8f2f4c2d9f9297) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b615922e8ec912744e915364b79ccc8e') in 0.127943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/NatureStarterKit2/Nature/bush04_Textures/diffuse.png
+  artifactKey: Guid(1bc291dddd73b3546b8d909b1c407553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NatureStarterKit2/Nature/bush04_Textures/diffuse.png using Guid(1bc291dddd73b3546b8d909b1c407553) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dfd258e52c96ea95718417f430c62d75') in 0.137818 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 285.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (482.2 KB). Loaded Objects now: 3984.
+Memory consumption went from 74.6 MB to 74.1 MB.
+Total: 5.962900 ms (FindLiveObjects: 0.328600 ms CreateObjectMapping: 0.287400 ms MarkObjects: 5.017400 ms  DeleteObjects: 0.328400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
